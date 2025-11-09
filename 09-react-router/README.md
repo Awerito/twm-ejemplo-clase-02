@@ -1,16 +1,59 @@
-# React + Vite
+## **Actividad en Clase: Mini SPA con React Router**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+⏳ **Duración total:** ~90 minutos  
+🎯 **Objetivo:** Incorporar **navegación declarativa** con `react-router-dom`,
+rutas anidadas y parámetros dinámicos reutilizando componentes existentes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Trabajo individual (parejas opcional).  
+- Requiere **Node.js ≥ 23.x** y **Yarn**.  
+- Proyecto basado en **Vite + React (JavaScript)**.
 
-## React Compiler
+---
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+### **📋 Setup**
 
-## Expanding the ESLint configuration
+```bash
+yarn install
+yarn dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Si partes desde cero:
+
+```bash
+yarn create vite router-demo --template react
+cd router-demo
+yarn add react-router-dom
+```
+
+---
+
+## **🧩 Requisitos mínimos**
+
+1. **Configurar el router básico**
+   - En `main.jsx`, envuelve `<App />` con `<BrowserRouter>`.
+   - Crea rutas para: `/` (Home), `/about`, `/user/:id`.
+2. **Navegación con `<NavLink>`**
+   - Implementa un `NavBar` con enlaces activos que cambian de estilo.
+   - Incluye un enlace que apunte a `/user/1` a modo de demo.
+3. **Parámetros dinámicos**
+   - En la página `User`, usa `useParams()` para obtener el `id`.
+   - Muestra información de ejemplo o busca datos desde un arreglo local.
+4. **Ruta comodín (`*`)**
+   - Renderiza un mensaje 404 para rutas inexistentes.
+
+---
+
+## **✨ Extensiones sugeridas**
+
+- Añadir rutas anidadas para secciones dentro de `/about`.
+- Cargar datos asincrónicos con `useEffect` usando el `id` de la URL.
+- Implementar rutas protegidas con un wrapper que verifique autenticación.
+
+---
+
+## 🔗 Recursos útiles
+
+- [React Router Docs](https://reactrouter.com/en/main/start/tutorial)
+- [Guía oficial de Vite](https://vitejs.dev/guide/)
