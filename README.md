@@ -1,59 +1,97 @@
-## **🔗 Setup básico de JavaScript en Windows**
+# 🧩 Tecnologías Móviles y Web – Ejemplos de Clase
 
-La mayoría usará **Windows** y **Visual Studio Code**. Estos son los pasos iniciales para preparar el entorno de desarrollo con JavaScript.
-
----
-
-### **1. Instalar Node.js y npm**
-- [Descarga oficial de Node.js para Windows (LTS recomendado)](https://nodejs.org/en/download/)  
-- Node incluye **npm**, que permite instalar paquetes.  
-- Verificar la instalación en **PowerShell** o **CMD**:  
-  ```bash
-  node -v
-  npm -v
-  ```
-
-
-👉 En Linux/macOS se recomienda usar **nvm**: [Guía oficial de nvm](https://github.com/nvm-sh/nvm)
+Este repositorio contiene el **código fuente y ejercicios prácticos** asociados
+a las clases del curso **Tecnologías Móviles y Web**.
+Cada carpeta corresponde a una **unidad temática** y se relaciona directamente
+con el material teórico disponible en [apuntestecweb][repo-apuntes].
 
 ---
 
-### **2. Instalar Visual Studio Code**
+## 📚 Estructura del repositorio
 
-* [Descarga oficial de VS Code](https://code.visualstudio.com/)
-
----
-
-### **3. Extensiones recomendadas en VS Code**
-
-* [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets) (atajos para escribir más rápido)
-* [Prettier – Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) (formatea automáticamente el código)
-* [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) (plantillas de código JS)
-
----
-
-### **4. Configuración recomendada en VS Code**
-
-En **Configuración → Guardar** activa:
-
-* **Format on Save** (para que Prettier ordene tu código automáticamente al guardar).
-* Usa siempre `UTF-8` como codificación.
-
----
-
-### **5. Habilitar ejecución de scripts en PowerShell**
-
-Abre **PowerShell** como administrador y ejecuta:
-
-```bash
-Set-ExecutionPolicy RemoteSigned
+```
+twm-ejemplos/
+├── 01-introduccion/
+├── 02-html-css/
+├── 03-javascript/
+├── 04-javascript-extended/
+├── 05-react-introduction/
+├── 06-react/
+├── 07-react-hooks-context/
+├── 08-javascript-fetch/
+├── 09-react-router/
+├── 10-react-tailwind/
+└── README.md
 ```
 
+Cada carpeta incluye los **archivos de ejemplo trabajados en clase**, junto con
+pequeños ejercicios y demostraciones prácticas.
+
 ---
 
-# Enlaces de interes
+## 💡 Objetivo del repositorio
 
-- [Repositorio de apuntes](https://github.com/Awerito/tecnologias-web-apuntes)
-- [Repositorio de plantilla React + TailwindCSS](https://github.com/Awerito/react-vite-tailwind-template.git) ***NEW!***
-- [Repositorio de plantilla React + Mantine](https://github.com/Awerito/react-mantine-template) ***DEPRECATED!***
-- [Repositorio de ejemplos](https://github.com/Awerito/react-examples) ***DEPRECATED!***
+* Reforzar los contenidos del curso con **ejemplos funcionales y progresivos**.
+* Mostrar **buenas prácticas de desarrollo front-end** en HTML, CSS y JavaScript moderno.
+* Introducir gradualmente conceptos de **React** y **ecosistema moderno de desarrollo web**.
+* Servir como base para actividades, evaluaciones y proyectos personales.
+
+---
+
+## 🚀 Cómo usar
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/Awerito/twm-ejemplos.git
+   cd twm-ejemplos
+   ```
+
+2. Abre las carpetas por clase en VS Code.
+
+3. Los archivos `.html` pueden ejecutarse directamente desde el navegador.
+
+4. Las actividades de **React** pueden levantarse con:
+
+   ```bash
+   yarn dev
+   ```
+
+---
+
+## 🧾 Relación con apuntes teóricos
+
+| Carpeta                | Clase teórica asociada       |
+| ---------------------- | ---------------------------- |
+| 01-introduccion        | [01-introduction][c1]        |
+| 02-html-css            | [02-html-css][c2]            |
+| 03-javascript          | [03-javascript][c3]          |
+| 04-javascript-extended | [04-javascript-extended][c4] |
+| 05-react-introduction  | [05-react-introduction][c5]  |
+| 06-react               | [06-react][c6]               |
+| 07-react-hooks-context | [07-react-hooks-context][c7] |
+| 08-javascript-fetch    | [08-javascript-fetch][c8]    |
+| 09-react-router        | [09-react-router][c9]        |
+| 10-react-tailwind      | [10-react-tailwind][c10]     |
+
+---
+
+## 📜 License
+
+[MIT © Awerito][license]
+
+---
+
+[c1]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/01-introduction
+[c2]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/02-html-css
+[c3]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/03-javascript
+[c4]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/04-javascript-extended
+[c5]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/05-react-introduction
+[c6]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/06-react
+[c7]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/07-react-hooks-context
+[c8]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/08-javascript-fetch
+[c9]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/09-react-router
+[c10]: https://github.com/Awerito/tecnologias-web-apuntes/tree/master/10-react-tailwind
+[repo-apuntes]: https://github.com/Awerito/tecnologias-web-apuntes
+[repo-ejemplos]: https://github.com/Awerito/twm-ejemplos
+[license]: https://github.com/Awerito/twm-ejemplos/blob/master/LICENSE
