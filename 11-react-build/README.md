@@ -76,6 +76,7 @@ partir desde cero (a elección).
    git remote add origin <url>
    git push -u origin master
    ```
+
 2. En Netlify: **Add new site → Import an existing project**, conecta GitHub y
    selecciona el repo.
 3. Configura:
