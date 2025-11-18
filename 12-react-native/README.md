@@ -23,7 +23,7 @@
 yarn create expo hello-rn
 cd hello-rn
 yarn start
-````
+```
 
 Esto abrirá **Expo Dev Tools** (el panel de desarrollo) en el navegador.
 
