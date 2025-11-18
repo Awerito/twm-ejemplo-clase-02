@@ -1,6 +1,6 @@
-# **Actividad en Clase: “Hola Mundo” con React Native (Expo)”**
+# **Actividad en Clase: “Hola Mundo” con React Native (Expo)**
 
-⏳ **Duración total:** ~60–80 min  
+⏳ **Duración total:** 60 min  
 🎯 **Objetivo:** crear un proyecto React Native usando **Expo**, ejecutarlo con
 **Metro Bundler** y visualizarlo en el **teléfono real**.
 
