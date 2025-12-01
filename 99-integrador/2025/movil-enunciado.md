@@ -64,7 +64,7 @@ El objetivo del proyecto es construir la aplicación móvil nativa que consuma c
    * **Descripción:** Entrega del url del repositorio en GitHub del código fuente implementado de la aplicación móvil con React Native + NativeWind.
    * **Método de Entrega:** [email](mailto:diego.munozviveros@ulagos.cl)
 
-> **Nota 1:** La build se probará en un dispositivo Android (Xiaomi 14T), para asegurar que funciona en ese dispositivo a la hora de entregar.
+> **Nota 1:** La build se probará en un dispositivo Android (Xiaomi 14T), para asegurar que funciona en ese dispositivo a la hora de entregar.  
 > **Nota 2:** Jueves se muestran avances en clase (presetación simple 'donde estamos - hacia donde vamos - que nos falta').
 
 ---
